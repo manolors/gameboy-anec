@@ -1,4 +1,4 @@
-onst path = require("path");
+const path = require("path");
 const mode = process.env.NODE_ENV === "production" ? "production" : "development";
 // const base = mode === "production" ? "/" + path.basename(process.cwd()) + "/" : "/";   // GitHub
 const base = "/"; // Netlify
